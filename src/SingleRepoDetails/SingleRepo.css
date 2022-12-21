@@ -1,0 +1,22 @@
+.card-body-repo-details {
+    margin: 5vh auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.yml-content {
+    height: 100%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.card-title {
+    font-weight: 400;
+}
+
+.card-title  > strong {
+    font-weight: 800;
+}

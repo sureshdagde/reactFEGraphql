@@ -1,0 +1,34 @@
+.repo-card {
+    padding: 20px;
+    display: flex;
+    border: solid black 1px;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+    margin: 1.5vh auto;
+}
+
+.avatar-image {
+    height: 100%;
+    width: 50%;
+}
+
+.avatar-image > img {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 990px) {
+    .repo-card {
+        width: 100%;
+    }
+}
