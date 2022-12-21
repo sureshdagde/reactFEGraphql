@@ -2,7 +2,7 @@ import React from 'react'
 import { Query } from 'react-apollo'
 import gql from 'graphql-tag'
 import './RepoList.css'
-import RepoContainer from '../Repo Details/RepoContainer'
+import RepoContainer from '../RepoDetails/RepoContainer'
 
 const RepoList = () => {
   return (<Query
@@ -24,7 +24,7 @@ const RepoList = () => {
     >
       {({ loading, error, data }) => {
         if (loading) return <p>Loading....</p>
-        if (error) return <p>{error.message}</p>
+        if (error) return <h2 style={{textAlign: 'center', color: 'red'}}>{error.message}</h2>
 
         return (
           <div className="repo-list">{

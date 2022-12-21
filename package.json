@@ -1,5 +1,5 @@
 {
-  "name": "scanner-fe",
+  "name": "github-scanner-fe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

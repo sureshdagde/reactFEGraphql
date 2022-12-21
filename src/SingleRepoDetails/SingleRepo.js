@@ -33,7 +33,7 @@ const SingleRepo = () => {
     >
       {({ loading, error, data }) => {
         if (loading) return <p>Loading....</p>
-        if (error) return <p>{error.message}</p>
+        if (error) return <h2 style={{textAlign: 'center', color: 'red'}}>{error.message}</h2>
         return (
           <>
             <h1 style={{marginTop:'7vh'}}>Repository Details:</h1>
